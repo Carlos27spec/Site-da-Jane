@@ -27,4 +27,61 @@ header {
     border-radius: 20px;
     justify-content: center;
     align-items: center;
+    transition: 300ms;
+}
+
+#paginas>a:hover {
+    background-color: #FFB22C;
+    color: white;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    height: 100%;
+}
+
+#carrosselAP>img {
+    width: 765px;
+    height: 859px;
+    border-radius: 28px;
+}
+
+.apresentacao {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 879px;
+}
+
+.apresentacao>h1 {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    font-size: 110px;
+    font-family: "Handlee", cursive;
+    text-align: center;
+}
+
+nav {
+    background-color: rgba(0, 0, 0, 0.397);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    margin: 20px;
+}
+
+nav>p {
+    color: white;
+    font-family: Handlee;
+    position: bottom;
+    font-size: 40px;
+    transition: 300ms;
+}
+
+nav>p:hover {
+    color: #FFD900;
+    font-size: 45px;
 }
