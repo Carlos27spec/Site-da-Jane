@@ -7,7 +7,7 @@
 
 body {
     height: 100dvh;
-    width: 100dvw;
+    background-image: url(./InicioImgs/FUndo1.jpg);
 }
 
 header {
@@ -39,7 +39,7 @@ section {
     display: flex;
     justify-content: center;
     align-items: stretch;
-    height: 100%;
+    height: auto;
 }
 
 #carrosselAP>img {
@@ -56,16 +56,17 @@ section {
 }
 
 .apresentacao>h1 {
-    flex: 1;
     display: flex;
+    justify-content: center;
     align-items: center;
-    font-size: 110px;
+    font-size: 118px;
     font-family: "Handlee", cursive;
     text-align: center;
+    color: white;
 }
 
 nav {
-    background-color: rgba(0, 0, 0, 0.397);
+    background-color: rgba(0, 0, 0, 0.795);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -79,9 +80,152 @@ nav>p {
     position: bottom;
     font-size: 40px;
     transition: 300ms;
+    cursor: pointer;
 }
 
 nav>p:hover {
     color: #FFD900;
     font-size: 45px;
+}
+
+#divisao {
+    background-color: rgba(0, 0, 0, 0.815);
+    height: 200px;
+}
+
+/* //Parte Superior OK!// */
+
+
+main {
+    display: flex;
+}
+
+.portifolio {
+    display: flex;
+    flex-direction: column;
+}
+
+.liso {
+    display: flex;
+}
+
+.liso>img {
+    height: 645px;
+    width: 537px;
+    border-radius: 52px;
+    margin: 0px 30px;
+}
+
+.liso>p {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    font-size: 54px;
+    font-family: "Handlee", cursive;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.486);
+    color: white;
+    border-radius: 20px;
+}
+
+.ondulado {
+    display: flex;
+}
+
+.ondulado>img {
+    height: 645px;
+    width: 537px;
+    border-radius: 52px;
+    margin: 0px 30px;
+    position: relative;
+}
+
+.ondulado>p {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    font-size: 54px;
+    font-family: "Handlee", cursive;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.486);
+    color: white;
+    border-radius: 20px;
+}
+
+.cacheados {
+    display: flex;
+}
+
+.cacheados>img {
+    height: 645px;
+    width: 537px;
+    border-radius: 52px;
+    margin: 0px 30px;
+}
+
+.cacheados>p {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    font-size: 54px;
+    font-family: "Handlee", cursive;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.486);
+    color: white;
+    border-radius: 20px;
+}
+
+.curtos {
+    display: flex;
+}
+
+.curtos>img {
+    height: 645px;
+    width: 537px;
+    border-radius: 52px;
+    margin: 0px 30px;
+}
+
+.curtos>p {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    font-size: 54px;
+    font-family: "Handlee", cursive;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.486);
+    color: white;
+    border-radius: 20px;
+}
+
+.crespo {
+    display: flex;
+}
+
+.crespo>img {
+    height: 645px;
+    width: 537px;
+    border-radius: 52px;
+    margin: 0px 30px;
+}
+
+.crespo>p {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    font-size: 54px;
+    font-family: "Handlee", cursive;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.486);
+    color: white;
+    border-radius: 20px;
+}
+
+footer {
+    height: 187px;
+    width: 100%;
+    font-family: Handlee;
+    font-size: 35px;
+    background-color: rgba(0, 0, 0, 0.753);
+    color: white;
 }
