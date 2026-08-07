@@ -1,0 +1,89 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+body {
+    height: 100dvh;
+    background-image: url(/fundos/Lab-57-scaled.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.753);
+    height: 134px;
+    padding: 10px;
+}
+
+header>h1 {
+    font-family: Handlee;
+    font-size: 96px;
+    color: white;
+}
+
+.logo {
+    margin: 10px;
+}
+
+#paginas>a {
+    background-color: white;
+    gap: 15px;
+    font-family: K2D;
+    color: black;
+    font-size: x-large;
+    padding: 10px;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    transition: 300ms;
+}
+
+#paginas>a:hover {
+    background-color: #FFB22C;
+    color: white;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quadro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(134, 73, 55, 0.712);
+    height: 755px;
+    width: 1157px;
+    border-radius: 37px;
+    padding: 50px;
+    margin: 30px;
+}
+
+.quadro>p {
+    font-size: 66px;
+    font-family: Handlee;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quadro>img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 902px;
+    height: 562px;
+    position: relative;
+    padding: 10px;
+}
