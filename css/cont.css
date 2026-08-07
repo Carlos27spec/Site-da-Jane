@@ -105,6 +105,7 @@ textarea {
     bottom: 55px;
     left: 45px;
     transition: 300ms;
+    cursor: pointer;
 }
 
 button:hover {
@@ -123,6 +124,7 @@ button:hover {
     bottom: 140px;
     left: 1490px;
     transition: 300ms;
+    cursor: pointer;
 }
 
 .zap:hover {

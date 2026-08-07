@@ -1,0 +1,165 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+body {
+    height: 100dvh;
+    background-image: url(/fundos/Roby_Salao_Beleza-3774.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.753);
+    height: 114px;
+    padding: 10px;
+}
+
+header>h1 {
+    font-family: Handlee;
+    font-size: 96px;
+    color: white;
+}
+
+#paginas>a {
+    background-color: white;
+    gap: 15px;
+    font-family: K2D;
+    color: black;
+    font-size: x-large;
+    padding: 10px;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    transition: 300ms;
+}
+
+#paginas>a:hover {
+    background-color: #FFB22C;
+    color: white;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.agendar {
+    margin: 10px;
+    height: 808px;
+    width: 1679px;
+    background-color: rgba(0, 0, 0, 0.384);
+    border: 2px solid rgba(255, 255, 255, 0.541);
+}
+
+.agendar>h1 {
+    display: flex;
+    justify-content: center;
+    font-family: Handlee;
+    color: white;
+    font-size: 86px;
+}
+
+.agendar {
+    margin: 10px;
+    height: 808px;
+    width: 1679px;
+    background-color: rgba(0, 0, 0, 0.384);
+    border: 2px solid rgba(255, 255, 255, 0.541);
+    position: relative;
+    padding: 30px;
+}
+
+.form-agendamento {
+    display: flex;
+    flex-direction: column;
+    width: 700px;
+    margin: 0 auto;
+    gap: 10px;
+}
+
+.form-agendamento select,
+.form-agendamento input,
+.form-agendamento textarea {
+    font-family: Handlee, sans-serif;
+    font-size: 36px;
+    color: white;
+    background-color: #854836b0;
+    border: none;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.541);
+    padding: 20px;
+    outline: none;
+    appearance: none;
+}
+
+.form-agendamento select {
+    cursor: pointer;
+    background-image: url("/fundos/down-menu.svg");
+    background-repeat: no-repeat;
+    background-position: right 20px center;
+    background-size: 24px;
+}
+
+.form-agendamento textarea {
+    height: 260px;
+    resize: none;
+    border-bottom: none;
+}
+
+.form-agendamento select::placeholder,
+.form-agendamento input::placeholder,
+.form-agendamento textarea::placeholder {
+    color: white;
+}
+
+.form-agendamento button {
+    align-self: center;
+    margin-top: 30px;
+    padding: 12px 40px;
+    font-family: K2D, sans-serif;
+    font-size: x-large;
+    background-color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 300ms;
+}
+
+.form-agendamento button:hover {
+    background-color: #FFB22C;
+    color: white;
+}
+
+.whatsapp {
+    position: absolute;
+    bottom: 100px;
+    right: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.whatsapp p {
+    color: white;
+    font-family: Handlee, cursive;
+    font-size: x-large;
+}
+
+.whatsapp img {
+    width: 70px;
+    height: 70px;
+    transition: 300ms;
+}
+
+.whatsapp img:hover {
+    transform: scale(1.1);
+}
