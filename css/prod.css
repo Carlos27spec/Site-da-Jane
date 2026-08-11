@@ -55,9 +55,30 @@ main {
 
 .Produtos {
     display: flex;
-    justify-content: center;
     align-items: center;
     gap: 30px;
+    justify-content: flex-start;
+    overflow-x: auto;
+    overflow-y: hidden;
+    scroll-snap-type: x mandatory;
+    padding: 10px 20px;
+    max-width: 1279px;
+    scrollbar-width: none;
+    cursor: grab;
+}
+
+.Produtos::-webkit-scrollbar {
+    display: none;
+}
+
+.produto-container {
+    flex: 0 0 auto;
+    scroll-snap-align: start;
+}
+
+.Produtos.arrastando {
+    cursor: grabbing;
+    scroll-snap-type: none;
 }
 
 .arraste {
