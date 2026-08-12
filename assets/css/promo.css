@@ -7,7 +7,7 @@
 
 body {
     height: 100dvh;
-    background-image: url(/fundos/Lab-57-scaled.jpg);
+    background-image: url(/assets/image/fundos/Lab-57-scaled.jpg);
     background-size: cover;
     background-position: center;
 }
