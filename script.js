@@ -58,3 +58,10 @@ iniciarCarrossel(".ondulado img", imagensON);
 iniciarCarrossel(".cacheados img", imagensCH);
 iniciarCarrossel(".curtos img", imagensCT);
 iniciarCarrossel(".crespo img", imagensCP);
+
+// função de rolagem
+document.querySelector("nav > p").addEventListener("click", () => {
+  document.getElementById("portifolio-section").scrollIntoView({
+    behavior: "smooth",
+  });
+});
