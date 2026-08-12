@@ -46,6 +46,7 @@ section {
     width: 765px;
     height: 859px;
     border-radius: 28px;
+    margin: 10px;
 }
 
 .apresentacao {
@@ -91,6 +92,7 @@ nav>p:hover {
 #divisao {
     background-color: rgba(0, 0, 0, 0.815);
     height: 200px;
+    margin: 10px;
 }
 
 /* //Parte Superior OK!// */
@@ -103,6 +105,11 @@ main {
 .portifolio {
     display: flex;
     flex-direction: column;
+    gap: 20px;
+}
+
+.portifolio>div:nth-child(even) {
+    flex-direction: row-reverse;
 }
 
 .liso {
@@ -222,6 +229,7 @@ main {
 }
 
 footer {
+    margin: 10px 0px 0px 0px;
     height: 187px;
     width: 100%;
     font-family: Handlee;
